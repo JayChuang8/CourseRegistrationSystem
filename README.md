@@ -1,1 +1,2 @@
-# ENSF409FinalProject
+# Course Registration Simulation System
+
