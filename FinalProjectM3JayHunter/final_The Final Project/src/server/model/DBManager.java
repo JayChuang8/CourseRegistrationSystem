@@ -269,7 +269,7 @@ public class DBManager {
 		try {
 			Driver driver = new com.mysql.cj.jdbc.Driver();
 			DriverManager.registerDriver(driver);
-			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ensf409finalproject", "root", "2511610A9333!B649abfb62Iwtbr8");
+			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ensf409finalproject", "root", "password");
 		} catch (SQLException e) {
 			System.out.println("Problem");
 			e.printStackTrace();
